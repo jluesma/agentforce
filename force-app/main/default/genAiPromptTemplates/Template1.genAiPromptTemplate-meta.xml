@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>eJOepNX1pQECdCnE6NelcNxlTNu6OFPeN0M/msqHJBg=_1</activeVersionIdentifier>
+    <description>Description</description>
+    <developerName>Template1</developerName>
+    <masterLabel>Template1</masterLabel>
+    <templateVersions>
+        <content>Too short template
+</content>
+        <inputs>
+            <apiName>query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>chunks</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:chunks</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>eJOepNX1pQECdCnE6NelcNxlTNu6OFPeN0M/msqHJBg=_1</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__searchAnswersType</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

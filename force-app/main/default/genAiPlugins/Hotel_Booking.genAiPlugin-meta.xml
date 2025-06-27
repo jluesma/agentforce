@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
+    <description>Handles user requests related to booking a hotel at our resorts. Includes inquiries about availability, pricing, and reservation details.</description>
+    <developerName>Hotel_Booking</developerName>
+    <genAiFunctions>
+        <functionName>SvcCopilotTmpl__CancelOrder</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>SvcCopilotTmpl__CreateCase</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__DraftOrReviseEmail</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__ExtractFieldsAndValuesFromUserInput</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>SvcCopilotTmpl__FinalizeNewDeliveryTime</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Process_Magic_Numbers</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Template1</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Template2</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Ask the user for their preferred dates and resort location.</description>
+        <developerName>instruction_asktheuser0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_asktheuser0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Check availability for the requested dates and provide options.</description>
+        <developerName>instruction_checkavail1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_checkavail1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the user requests, provide pricing details for available options.</description>
+        <developerName>instruction_iftheuserr2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_iftheuserr2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Offer to complete the booking process if the user is ready to make a reservation.</description>
+        <developerName>instruction_offertocom3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_offertocom3</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If availability is limited, suggest alternative dates or resorts.</description>
+        <developerName>instruction_ifavailabi4</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifavailabi4</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Hotel Booking</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to assist users in booking a hotel room at our resorts. You should provide information on availability, pricing, and reservation options. Do not handle inquiries outside hotel booking.</scope>
+</GenAiPlugin>

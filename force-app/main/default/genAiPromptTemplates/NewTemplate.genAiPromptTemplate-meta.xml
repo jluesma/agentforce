@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>eJOepNX1pQECdCnE6NelcNxlTNu6OFPeN0M/msqHJBg=_1</activeVersionIdentifier>
+    <developerName>NewTemplate</developerName>
+    <masterLabel>NewTemplate</masterLabel>
+    <templateVersions>
+        <content>Objective:
+ [Clearly state what you want to achieve in Salesforce. Example: “Generate Apex code to create a trigger that updates a related object.”]
+Context:
+Org type: [Production / Sandbox / Developer Edition]
+Clouds used: [Sales Cloud / Service Cloud / Experience Cloud / etc.]
+Relevant objects: [List standard or custom objects, e.g. Account, Custom_Object__c]
+Current setup: [Describe any existing automation, fields, or logic that the prompt should be aware of]
+Technical Constraints:
+[Governor limits, dependency on managed packages, Flow vs Apex preference, etc.]
+[Code must be bulk-safe / follow best practices / use SOQL efficiently, etc.]
+Output Format:
+[Apex class / Flow steps / SOQL query / Metadata explanation / Visualforce component / Lightning Web Component]
+[Include: comments / test class / XML metadata if needed]
+Example Prompt:
+&quot;Create an Apex trigger on Opportunity that updates a custom field on the related Account when the Opportunity is marked as Closed Won. The trigger must be bulk-safe and include a test class with at least 75% coverage.&quot;
+
+</content>
+        <inputs>
+            <apiName>ChatTranscript</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:ChatTranscript</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>eJOepNX1pQECdCnE6NelcNxlTNu6OFPeN0M/msqHJBg=_1</versionIdentifier>
+    </templateVersions>
+    <type>SvcCopilotTmpl__createCaseWithEnhancedData</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

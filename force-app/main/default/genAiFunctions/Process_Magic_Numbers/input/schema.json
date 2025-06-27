@@ -1,0 +1,14 @@
+{
+  "required" : [ "number2" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "number2" : {
+      "title" : "number2",
+      "description" : "ask the number",
+      "lightning:type" : "lightning__integerType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

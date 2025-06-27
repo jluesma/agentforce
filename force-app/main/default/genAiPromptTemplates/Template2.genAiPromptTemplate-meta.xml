@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>eJOepNX1pQECdCnE6NelcNxlTNu6OFPeN0M/msqHJBg=_1</activeVersionIdentifier>
+    <description>Too Long Template</description>
+    <developerName>Template2</developerName>
+    <masterLabel>Template2</masterLabel>
+    <templateVersions>
+        <content>The passage of time is a curious thing. One moment you are standing on the threshold of youth, looking ahead at a vast expanse of possibilities, and the next, you find yourself glancing back, wondering how it all moved so quickly. It&apos;s not that time speeds up—every second still ticks by at the same measured pace—but perception shifts. Childhood summers felt endless, stretching like golden afternoons into forever. Now, years flicker by like a film running on fast forward.
+What changes? Responsibilities accumulate. Moments become filled with tasks and expectations. The simplicity of a carefree day is traded for the complexity of planning, working, and maintaining. Still, even in this exchange, there is value. Maturity brings deeper understanding. A quiet morning with coffee and a book holds a different kind of joy than a day of childhood play—but it is joy all the same.
+Memories form the mosaic of who we are. We rarely remember days in their entirety, but rather snippets: the way light filtered through trees during a walk, the sound of laughter echoing through a hallway, the warmth of someone&apos;s hand in yours. These fragments become anchors in the shifting current of time, reminders of what mattered, what changed us, and what remains.
+It’s important to slow down occasionally and become intentional with time. To step away from the race and take stock. Not everything needs to be productive. Some things—watching the sky turn orange at sunset, listening to a song that stirs emotion, or sharing silence with a loved one—have value beyond measure. They remind us that life isn’t just a timeline to be crossed, but a collection of moments to be lived.
+And in those moments, no matter how small, time becomes s
+</content>
+        <inputs>
+            <apiName>query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>chunks</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:chunks</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>eJOepNX1pQECdCnE6NelcNxlTNu6OFPeN0M/msqHJBg=_1</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__searchAnswersType</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>
